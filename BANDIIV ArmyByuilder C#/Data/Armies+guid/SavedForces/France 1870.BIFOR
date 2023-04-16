@@ -1,0 +1,113 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table1>
+    <OfficerName>Marguerite  Boulanger</OfficerName>
+    <OfficerId>b9d053f6-457e-4c71-8915-51caf72d1896</OfficerId>
+    <MyBoss>00000000-0000-0000-0000-000000000000</MyBoss>
+  </Table1>
+  <Table1>
+    <OfficerName>Guillume  Guizot</OfficerName>
+    <OfficerId>c8a83a97-8e15-4dd4-983c-54a4cb98ba30</OfficerId>
+    <MyBoss>b9d053f6-457e-4c71-8915-51caf72d1896</MyBoss>
+  </Table1>
+  <Table1>
+    <OfficerName>Henri  Arnaud</OfficerName>
+    <OfficerId>0af6cb2d-a186-4860-b1b7-8342041ce002</OfficerId>
+    <MyBoss>c8a83a97-8e15-4dd4-983c-54a4cb98ba30</MyBoss>
+  </Table1>
+  <Table1>
+    <OfficerName>Charles-Jules  Estaing</OfficerName>
+    <OfficerId>1f9394e1-16a1-4f02-b2a6-baab94306425</OfficerId>
+    <MyBoss>c8a83a97-8e15-4dd4-983c-54a4cb98ba30</MyBoss>
+  </Table1>
+  <Table1>
+    <OfficerName>Joachim  Oudinot</OfficerName>
+    <OfficerId>3e24ffab-d217-4e26-9b2d-b259f684c6ad</OfficerId>
+    <MyBoss>b9d053f6-457e-4c71-8915-51caf72d1896</MyBoss>
+  </Table1>
+  <Table1>
+    <OfficerName>Albert  Gerard</OfficerName>
+    <OfficerId>086c55a0-1f73-4b5f-99a3-5a9f89d9b5a2</OfficerId>
+    <MyBoss>3e24ffab-d217-4e26-9b2d-b259f684c6ad</MyBoss>
+  </Table1>
+  <Table2>
+    <UnitName>1eme INFANTRIE DE LIGNE</UnitName>
+    <UnitId>7184ffc5-01b0-4828-9152-b96ef28dc201</UnitId>
+    <MyBoss>0af6cb2d-a186-4860-b1b7-8342041ce002</MyBoss>
+  </Table2>
+  <Table2>
+    <UnitName>2eme INFANTRIE DE LIGNE</UnitName>
+    <UnitId>de393b71-40b4-42fb-b274-9ae72fc7c692</UnitId>
+    <MyBoss>0af6cb2d-a186-4860-b1b7-8342041ce002</MyBoss>
+  </Table2>
+  <Table2>
+    <UnitName>3eme INFANTRIE DE LIGNE</UnitName>
+    <UnitId>69bf46c3-2a2a-4a99-a691-ec1e4609ce2f</UnitId>
+    <MyBoss>0af6cb2d-a186-4860-b1b7-8342041ce002</MyBoss>
+  </Table2>
+  <Table2>
+    <UnitName>4eme INFANTRIE LEGERE</UnitName>
+    <UnitId>99cf6d1f-d9c2-47b1-bd1a-813808c2363e</UnitId>
+    <MyBoss>0af6cb2d-a186-4860-b1b7-8342041ce002</MyBoss>
+  </Table2>
+  <Table2>
+    <UnitName>5eme ARTILLERIE A PIED</UnitName>
+    <UnitId>802526d1-993b-49e5-966b-b72b12da0967</UnitId>
+    <MyBoss>0af6cb2d-a186-4860-b1b7-8342041ce002</MyBoss>
+  </Table2>
+  <Table2>
+    <UnitName>8eme CHASSEUR A CHEVAL</UnitName>
+    <UnitId>0f23a541-4f87-4300-8407-01078b6a420f</UnitId>
+    <MyBoss>1f9394e1-16a1-4f02-b2a6-baab94306425</MyBoss>
+  </Table2>
+  <Table2>
+    <UnitName>9eme CHASSEUR A CHEVAL</UnitName>
+    <UnitId>2aa41c6b-68cb-47da-9190-e9da3436408c</UnitId>
+    <MyBoss>1f9394e1-16a1-4f02-b2a6-baab94306425</MyBoss>
+  </Table2>
+  <Table2>
+    <UnitName>10eme LANCIERS</UnitName>
+    <UnitId>cadeee4b-675f-4c14-9690-a1743799fc8c</UnitId>
+    <MyBoss>1f9394e1-16a1-4f02-b2a6-baab94306425</MyBoss>
+  </Table2>
+  <Table2>
+    <UnitName>11eme ARTILLERIE A CHEVAL</UnitName>
+    <UnitId>14fa46f7-4a84-4897-b6a6-7d774d2ae203</UnitId>
+    <MyBoss>1f9394e1-16a1-4f02-b2a6-baab94306425</MyBoss>
+  </Table2>
+  <Table2>
+    <UnitName>12eme MITRAILLEUSES</UnitName>
+    <UnitId>0276aa92-5aad-481f-b9d0-568a2d0fb8d6</UnitId>
+    <MyBoss>1f9394e1-16a1-4f02-b2a6-baab94306425</MyBoss>
+  </Table2>
+  <Table2>
+    <UnitName>13eme INFANTRIE DE LIGNE</UnitName>
+    <UnitId>38554f90-b20c-4bac-8ee8-d18ff1eafafe</UnitId>
+    <MyBoss>086c55a0-1f73-4b5f-99a3-5a9f89d9b5a2</MyBoss>
+  </Table2>
+  <Table2>
+    <UnitName>14eme INFANTRIE DE LIGNE</UnitName>
+    <UnitId>0e2ac719-93d4-4361-8379-d86032499ff6</UnitId>
+    <MyBoss>086c55a0-1f73-4b5f-99a3-5a9f89d9b5a2</MyBoss>
+  </Table2>
+  <Table2>
+    <UnitName>15eme INFANTRIE DE LIGNE</UnitName>
+    <UnitId>73653fdd-f4c4-4aeb-a9bb-44fbcb2a7261</UnitId>
+    <MyBoss>086c55a0-1f73-4b5f-99a3-5a9f89d9b5a2</MyBoss>
+  </Table2>
+  <Table2>
+    <UnitName>16eme FUSILIERS MARINS</UnitName>
+    <UnitId>3f38c5be-a837-482a-917d-abf4032b87ea</UnitId>
+    <MyBoss>086c55a0-1f73-4b5f-99a3-5a9f89d9b5a2</MyBoss>
+  </Table2>
+  <Table2>
+    <UnitName>17eme CHASSEURS</UnitName>
+    <UnitId>c4389c4c-0e8a-40d8-a077-3c1dda7c3337</UnitId>
+    <MyBoss>086c55a0-1f73-4b5f-99a3-5a9f89d9b5a2</MyBoss>
+  </Table2>
+  <Table2>
+    <UnitName>18eme MITRAILLEUSES</UnitName>
+    <UnitId>eb3ddcba-32b8-4d76-a642-0102647dae43</UnitId>
+    <MyBoss>086c55a0-1f73-4b5f-99a3-5a9f89d9b5a2</MyBoss>
+  </Table2>
+</NewDataSet>

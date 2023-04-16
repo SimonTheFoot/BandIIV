@@ -1,0 +1,13 @@
+﻿04/sept 2022
+Known issue Russians same area as confederate army:  Database issue - not urgent
+list boxes not clearing properly on breadcrumb back and back button
+list boxes not hiding on back button
+sfTreeview not displaying
+to do save
+to do edit
+to do load
+possibly to do css
+
+
+
+

@@ -1,0 +1,88 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table1>
+    <OfficerName>Herrmann  Karlson</OfficerName>
+    <OfficerId>8296fc3b-146d-4230-a706-d0161882038e</OfficerId>
+    <MyBoss>00000000-0000-0000-0000-000000000000</MyBoss>
+  </Table1>
+  <Table1>
+    <OfficerName>Oscar  von Johanson</OfficerName>
+    <OfficerId>683a2976-3156-4cf5-9f09-86efcbfa082e</OfficerId>
+    <MyBoss>8296fc3b-146d-4230-a706-d0161882038e</MyBoss>
+  </Table1>
+  <Table1>
+    <OfficerName>Rudolf  Magnusson</OfficerName>
+    <OfficerId>522b35d1-2c8e-4273-8db9-2eaee19b4e3a</OfficerId>
+    <MyBoss>683a2976-3156-4cf5-9f09-86efcbfa082e</MyBoss>
+  </Table1>
+  <Table1>
+    <OfficerName>Theodor  von Claesson</OfficerName>
+    <OfficerId>366abf3e-82c1-4ce3-a486-3c8d44d34930</OfficerId>
+    <MyBoss>683a2976-3156-4cf5-9f09-86efcbfa082e</MyBoss>
+  </Table1>
+  <Table1>
+    <OfficerName>Georg  Freiherr von Karlson</OfficerName>
+    <OfficerId>0510f3d4-9271-4a00-b691-ac799a19657a</OfficerId>
+    <MyBoss>8296fc3b-146d-4230-a706-d0161882038e</MyBoss>
+  </Table1>
+  <Table2>
+    <UnitName>GRENADIER BATAILLONNr. 1</UnitName>
+    <UnitId>f8429c24-1631-4e3a-8af6-970186d73858</UnitId>
+    <MyBoss>522b35d1-2c8e-4273-8db9-2eaee19b4e3a</MyBoss>
+  </Table2>
+  <Table2>
+    <UnitName>GRENADIER BATAILLONNr. 2</UnitName>
+    <UnitId>a15d5e31-051d-4f62-985e-9769b7dd725f</UnitId>
+    <MyBoss>522b35d1-2c8e-4273-8db9-2eaee19b4e3a</MyBoss>
+  </Table2>
+  <Table2>
+    <UnitName>GRENADIER BATAILLONNr. 3</UnitName>
+    <UnitId>846e78c6-dfe2-479e-82fc-992bb1b6a5d5</UnitId>
+    <MyBoss>522b35d1-2c8e-4273-8db9-2eaee19b4e3a</MyBoss>
+  </Table2>
+  <Table2>
+    <UnitName>JAGER BATAILLONNr. 4</UnitName>
+    <UnitId>572c30f7-737b-496b-80d3-b9f419f2cdee</UnitId>
+    <MyBoss>522b35d1-2c8e-4273-8db9-2eaee19b4e3a</MyBoss>
+  </Table2>
+  <Table2>
+    <UnitName>LEICHTBEWOFFNETE BATTERIENr. 5</UnitName>
+    <UnitId>3b8c0b86-f0b9-4f81-9b86-9497eb3f7b9e</UnitId>
+    <MyBoss>522b35d1-2c8e-4273-8db9-2eaee19b4e3a</MyBoss>
+  </Table2>
+  <Table2>
+    <UnitName>GARDE GRENADIERENr. 6</UnitName>
+    <UnitId>541fb456-f660-4ee9-8cd1-ad6096650c87</UnitId>
+    <MyBoss>366abf3e-82c1-4ce3-a486-3c8d44d34930</MyBoss>
+  </Table2>
+  <Table2>
+    <UnitName>GARDE ZU FUSSNr. 7</UnitName>
+    <UnitId>ed19ca5f-bbce-456d-a87d-46cbe284cf80</UnitId>
+    <MyBoss>366abf3e-82c1-4ce3-a486-3c8d44d34930</MyBoss>
+  </Table2>
+  <Table2>
+    <UnitName>GARDE ARTILLERIE ZU FUSSNr. 8</UnitName>
+    <UnitId>d4ffebb3-5a5c-4702-a73b-ee96b1a0f809</UnitId>
+    <MyBoss>366abf3e-82c1-4ce3-a486-3c8d44d34930</MyBoss>
+  </Table2>
+  <Table2>
+    <UnitName>GARDE KUIRASSIERNr. 9</UnitName>
+    <UnitId>bb78bdef-5673-49d3-8a3a-077078d447bd</UnitId>
+    <MyBoss>0510f3d4-9271-4a00-b691-ac799a19657a</MyBoss>
+  </Table2>
+  <Table2>
+    <UnitName>GARDE KUIRASSIERNr. 10</UnitName>
+    <UnitId>d97ce0ab-9ef8-4168-9a6c-83dd50c1cc9c</UnitId>
+    <MyBoss>0510f3d4-9271-4a00-b691-ac799a19657a</MyBoss>
+  </Table2>
+  <Table2>
+    <UnitName>GARDE UHLANNr. 11</UnitName>
+    <UnitId>885c3913-4a45-45c2-b989-198cd2598839</UnitId>
+    <MyBoss>0510f3d4-9271-4a00-b691-ac799a19657a</MyBoss>
+  </Table2>
+  <Table2>
+    <UnitName>GARDE ARTILLERIE ZU PFERDNr. 12</UnitName>
+    <UnitId>7e2d7216-748f-4014-acc1-975179c2a301</UnitId>
+    <MyBoss>0510f3d4-9271-4a00-b691-ac799a19657a</MyBoss>
+  </Table2>
+</NewDataSet>

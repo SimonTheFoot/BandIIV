@@ -1,0 +1,43 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table1>
+    <OfficerName>Rufino-Moises Moreno  </OfficerName>
+    <OfficerId>06325906-8458-4cda-bc33-597474bf660a</OfficerId>
+    <MyBoss>00000000-0000-0000-0000-000000000000</MyBoss>
+  </Table1>
+  <Table1>
+    <OfficerName>Pedro-German Blanco  de la Cruz</OfficerName>
+    <OfficerId>ad745e01-cb1b-403c-bac4-965ddd5970a8</OfficerId>
+    <MyBoss>06325906-8458-4cda-bc33-597474bf660a</MyBoss>
+  </Table1>
+  <Table1>
+    <OfficerName>Sergio Sanchez  </OfficerName>
+    <OfficerId>c3021cc8-0fae-4873-9643-116dd19e6588</OfficerId>
+    <MyBoss>ad745e01-cb1b-403c-bac4-965ddd5970a8</MyBoss>
+  </Table1>
+  <Table1>
+    <OfficerName>Zenon Dieguez-d'Alarcon  </OfficerName>
+    <OfficerId>32efc6bb-7463-49c7-8b94-f8ba8245f180</OfficerId>
+    <MyBoss>06325906-8458-4cda-bc33-597474bf660a</MyBoss>
+  </Table1>
+  <Table2>
+    <UnitName>1era GUERILLEROS</UnitName>
+    <UnitId>68b5e441-a8aa-446a-bfc5-902e13edfde7</UnitId>
+    <MyBoss>c3021cc8-0fae-4873-9643-116dd19e6588</MyBoss>
+  </Table2>
+  <Table2>
+    <UnitName>3era GUERILLEROS</UnitName>
+    <UnitId>ef7f7a31-38b8-420f-80d2-b71fa232f4ac</UnitId>
+    <MyBoss>c3021cc8-0fae-4873-9643-116dd19e6588</MyBoss>
+  </Table2>
+  <Table2>
+    <UnitName>4era BATTERIA A PIE</UnitName>
+    <UnitId>d34800f6-ac8f-4dba-a33e-1d183865f43f</UnitId>
+    <MyBoss>c3021cc8-0fae-4873-9643-116dd19e6588</MyBoss>
+  </Table2>
+  <Table2>
+    <UnitName>5eme DESERTORES EXTRANJEROS</UnitName>
+    <UnitId>100d4f9d-15d5-4c40-a881-08f472bc2396</UnitId>
+    <MyBoss>32efc6bb-7463-49c7-8b94-f8ba8245f180</MyBoss>
+  </Table2>
+</NewDataSet>

@@ -1,0 +1,71 @@
+﻿@page "/aaa"
+
+@using System.Text.Json
+@using System.Text.Json.Serialization;
+@using System.ComponentModel.DataAnnotations
+@using BandiIVWebApiGetter.Models
+@inject IHttpClientFactory ClientFactory
+
+<div>
+<h5 style="font-size: 18px">Select an army</h5>
+@if (getBranchesError)
+{
+    <p>Unable to get data.</p>
+}
+else
+{
+    <select size="1" name="armyName" style="font-size: 12px">
+        @foreach (var army in filterArmies())
+        {
+            <option value="@army.ArmyId" style="font-size: 12px">@army.ArmyName</option>
+        }
+    </select>
+}
+</div>
+@code {
+    private IEnumerable<ArmiesNoV3> ArmyNamesEnumerable = System.Array.Empty<ArmiesNoV3>();
+    Microsoft.AspNetCore.Components.ChangeEventArgs e = new Microsoft.AspNetCore.Components.ChangeEventArgs();
+
+    [Parameter]
+    public Areas Area{ get; set; } 
+
+    private bool getBranchesError;
+    private bool shouldRender;
+
+    protected override bool ShouldRender() => shouldRender;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var requestArmy = new HttpRequestMessage(HttpMethod.Get,
+            "https://bloodandiron.co.uk/fixed/Armies");
+
+        var client = ClientFactory.CreateClient();
+
+        var responseArmy = await client.SendAsync(requestArmy);
+
+        if (responseArmy.IsSuccessStatusCode)
+        {
+            using var responseStream = await responseArmy.Content.ReadAsStreamAsync();
+            ArmyNamesEnumerable = await JsonSerializer.DeserializeAsync
+                <IEnumerable<ArmiesNoV3>>(responseStream);
+        }
+        else
+        {
+            getBranchesError = true;
+        }
+        shouldRender = true;
+    }
+    IEnumerable<ArmiesNoV3> filterArmies()
+    {
+        if (Area == null)
+        {
+            return ArmyNamesEnumerable.Where(c => c.Group.Equals(1));
+        }
+        else
+        {
+            return ArmyNamesEnumerable.Where(c => c.Group.Equals(Area.AreaId));
+        }
+    }
+
+
+}

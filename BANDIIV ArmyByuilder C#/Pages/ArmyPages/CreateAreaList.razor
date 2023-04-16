@@ -1,0 +1,102 @@
+﻿@page "/CreateAreaList"
+
+@using System.Text.Json
+@using System.Text.Json.Serialization;
+@using System.ComponentModel.DataAnnotations
+@using System.Globalization
+@using System.Runtime.CompilerServices
+@using BandiIVWebApiGetter.Models
+@inject IHttpClientFactory ClientFactory
+
+
+<h5 style="font-size: 18px">Select an area</h5>
+
+@if (getBranchesError)
+{
+    <p>Unable to get data.</p>
+}
+else
+{
+    <select size="1" name="areaName" width="20" style="font-size: 12px" @onchange="DoStuff"> <!-- "(e => DoStuff(e.Value.ToString()))" >-->
+        @foreach (var areaName in AreaNamesEnumerable)
+        {
+            <option value="@areaName.AreaId" style="font-size: 12px">@areaName.AreaName</option>
+        }
+    </select>
+    <input type="button" value="back" @onclick="DoBack" />
+    <input type="button" value="next" @onclick="DoNext"/>
+
+}
+@code {
+    private IEnumerable<Areas> AreaNamesEnumerable = System.Array.Empty<Areas>();
+    private bool getBranchesError;
+    private bool shouldRender;
+
+    protected override bool ShouldRender() => shouldRender;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var requestArea = new HttpRequestMessage(HttpMethod.Get,
+            "https://bloodandiron.co.uk/fixed/Areas");
+
+        var clientArea = ClientFactory.CreateClient();
+        var responseArea = await clientArea.SendAsync(requestArea);
+        if (responseArea.IsSuccessStatusCode)
+        {
+            using var responseStream = await responseArea.Content.ReadAsStreamAsync();
+            AreaNamesEnumerable = await JsonSerializer.DeserializeAsync
+                <IEnumerable<Areas>>(responseStream);
+        }
+        else
+        {
+            getBranchesError = true;
+        }
+        shouldRender = true;
+    }
+    private void DoBack()
+    {
+
+    }
+    private void DoNext()
+    {
+        // send message back to create area at server
+        if (Area is null)
+            {
+
+            }
+        else{
+            // load armylist and show it
+
+
+        }
+    }
+    
+
+    private void DoStuff(Microsoft.AspNetCore.Components.ChangeEventArgs e){
+        int value;
+        if (Area is null)
+        {
+            Area = new Areas();
+
+        }
+        
+        if (e is null)
+        {
+            throw new ArgumentNullException(nameof(e));
+        }
+        if( Int32.TryParse(e.Value.ToString(), out value))
+        {
+            Area.AreaId = value;
+            @foreach (var areaName in AreaNamesEnumerable)
+            {
+                if (areaName.AreaId==value)
+                {
+                    Area.AreaName = areaName.AreaName;
+                }
+            }
+        }
+    }
+    [Parameter] public Areas Area{ get; set; }
+    
+
+}

@@ -1,0 +1,68 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table1>
+    <OfficerName>Rufino-Moises Moreno  </OfficerName>
+    <OfficerId>06325906-8458-4cda-bc33-597474bf660a</OfficerId>
+    <MyBoss>00000000-0000-0000-0000-000000000000</MyBoss>
+  </Table1>
+  <Table1>
+    <OfficerName>Pedro-German Blanco  de la Cruz</OfficerName>
+    <OfficerId>ad745e01-cb1b-403c-bac4-965ddd5970a8</OfficerId>
+    <MyBoss>06325906-8458-4cda-bc33-597474bf660a</MyBoss>
+  </Table1>
+  <Table1>
+    <OfficerName>Sergio Sanchez  </OfficerName>
+    <OfficerId>c3021cc8-0fae-4873-9643-116dd19e6588</OfficerId>
+    <MyBoss>ad745e01-cb1b-403c-bac4-965ddd5970a8</MyBoss>
+  </Table1>
+  <Table1>
+    <OfficerName>Zenon Dieguez-d'Alarcon  </OfficerName>
+    <OfficerId>32efc6bb-7463-49c7-8b94-f8ba8245f180</OfficerId>
+    <MyBoss>06325906-8458-4cda-bc33-597474bf660a</MyBoss>
+  </Table1>
+  <Table1>
+    <OfficerName>William Parton</OfficerName>
+    <OfficerId>50315020-7d20-46f2-b331-827873238bac</OfficerId>
+    <MyBoss>00000000-0000-0000-0000-000000000000</MyBoss>
+  </Table1>
+  <Table1>
+    <OfficerName>Geoffrey Nelson</OfficerName>
+    <OfficerId>de227585-006a-4804-a354-04f4604906e4</OfficerId>
+    <MyBoss>50315020-7d20-46f2-b331-827873238bac</MyBoss>
+  </Table1>
+  <Table2>
+    <UnitName>1era GUERILLEROS</UnitName>
+    <UnitId>28e392e9-fbcb-4b65-9778-c8fbfd02fb83</UnitId>
+    <MyBoss>c3021cc8-0fae-4873-9643-116dd19e6588</MyBoss>
+  </Table2>
+  <Table2>
+    <UnitName>3era GUERILLEROS</UnitName>
+    <UnitId>89f1da8c-b06d-46d2-90c7-51170027a213</UnitId>
+    <MyBoss>c3021cc8-0fae-4873-9643-116dd19e6588</MyBoss>
+  </Table2>
+  <Table2>
+    <UnitName>4era BATTERIA A PIE</UnitName>
+    <UnitId>d559d068-d0f9-478a-8525-32bf6ec5ed2b</UnitId>
+    <MyBoss>c3021cc8-0fae-4873-9643-116dd19e6588</MyBoss>
+  </Table2>
+  <Table2>
+    <UnitName>5eme DESERTORES EXTRANJEROS</UnitName>
+    <UnitId>bddca2ab-8462-42c1-ad1f-9655a165ae6f</UnitId>
+    <MyBoss>32efc6bb-7463-49c7-8b94-f8ba8245f180</MyBoss>
+  </Table2>
+  <Table2>
+    <UnitName>2s MUSLIM MUTINEER SOWARS</UnitName>
+    <UnitId>d7fba67f-6e0b-4b9c-b26b-46af26963bf1</UnitId>
+    <MyBoss>de227585-006a-4804-a354-04f4604906e4</MyBoss>
+  </Table2>
+  <Table2>
+    <UnitName>3s HINDOO MUTINEER SOWARS</UnitName>
+    <UnitId>358e4641-c8a3-4c84-a8ac-3951338df4b0</UnitId>
+    <MyBoss>de227585-006a-4804-a354-04f4604906e4</MyBoss>
+  </Table2>
+  <Table2>
+    <UnitName>6s MUSLIM MUTINEER SEPOYS</UnitName>
+    <UnitId>c3703dff-42d4-4648-92b9-9072c159fa9c</UnitId>
+    <MyBoss>de227585-006a-4804-a354-04f4604906e4</MyBoss>
+  </Table2>
+</NewDataSet>

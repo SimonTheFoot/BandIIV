@@ -1,0 +1,144 @@
+﻿@page "/TroopList"
+@using System.Text.Json
+@using System.Text.Json.Serialization;
+@using System.ComponentModel.DataAnnotations
+@using System.Globalization
+@inject IHttpClientFactory ClientFactory
+
+<h3>CreateTroopList</h3>
+<h5 style="font-size: 18px">Add troops</h5>
+
+@if (getBranchesError)
+{
+    <p>Unable to get data.</p>
+}
+else
+{
+    <select size="1" width="20" style="font-size: 12px" name="troopList">
+        @foreach (var troop in filterTroops())
+        {
+            <option value="@troop.TroopID" style="font-size: 12px">@troop.TroopName</option>
+        }
+    </select>
+}
+
+@code { 
+    private IEnumerable<Troop> TroopNamesEnumerable = System.Array.Empty<Troop>();
+    Microsoft.AspNetCore.Components.ChangeEventArgs e = new Microsoft.AspNetCore.Components.ChangeEventArgs();
+    
+    
+    private string armyFilter { get; set; } = "7"; 
+    private bool getBranchesError;
+    private bool shouldRender;
+ 
+    protected override bool ShouldRender() => shouldRender;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var requestTroop = new HttpRequestMessage(HttpMethod.Get,
+            "https://bloodandiron.co.uk/fixed/troops");
+
+        var clientTroop = ClientFactory.CreateClient();
+
+        var responseTroop = await clientTroop.SendAsync(requestTroop);
+
+        if (responseTroop.IsSuccessStatusCode)
+        {
+            using var responseStream = await responseTroop.Content.ReadAsStreamAsync();
+            TroopNamesEnumerable = await JsonSerializer.DeserializeAsync
+                <IEnumerable<Troop>>(responseStream);
+    // correct the silly original case structure
+            CultureInfo currentCulture = System.Threading.Thread.CurrentThread.CurrentCulture;
+            foreach (var troop in TroopNamesEnumerable)
+            {
+                troop.TroopName=currentCulture.TextInfo.ToTitleCase(troop.TroopName.ToLower());
+            }
+        }
+        else
+        {
+            getBranchesError = true;
+        }
+
+        shouldRender = true;
+
+    }
+    IEnumerable<Troop> filterTroops()
+    {
+        return  TroopNamesEnumerable.Where(c => c.ArmyID.ToString().Contains(armyFilter));
+    }
+ public class Troop
+    {
+        [Required]   
+        [JsonPropertyName("armyID")]
+        public Int32 ArmyID { get; set; }
+
+        [Required]   [JsonPropertyName("troopID")]
+        public Int32 TroopID { get; set; }
+
+        [Required]   [JsonPropertyName("troopName")]
+        [MaxLength(50)]
+        public String TroopName { get; set; }
+
+        [Required]   [JsonPropertyName("troopType")]
+        public Int32 TroopType { get; set; }
+
+        [Required]   [JsonPropertyName("troopClass")]
+        public Int32 TroopClass { get; set; }
+
+        [Required]   [JsonPropertyName("experience")]
+        public Int32 Experience { get; set; }
+
+        [Required]   [JsonPropertyName("formation")]
+        public Int32 Formation { get; set; }
+
+        [Required]   [JsonPropertyName("subUnits")]
+        public Int32 SubUnits { get; set; }
+
+        [Required]   [JsonPropertyName("meninSubUnit")]
+        public Int32 MeninSubUnit { get; set; }
+
+        [Required]   [JsonPropertyName("numberofGuns")]
+        public Int32 NumberofGuns { get; set; }
+
+        [Required]   [JsonPropertyName("percentageWithPrimaryWeapon")]
+        public Int32 PercentageWithPrimaryWeapon { get; set; }
+
+        [Required]   [JsonPropertyName("secondaryMissileWeapon")]
+        public Int32 SecondaryMissileWeapon { get; set; }
+
+        [Required]   [JsonPropertyName("armour")]
+        public Int32 Armour { get; set; }
+
+        [Required]   [JsonPropertyName("commandControl")]
+        public Int32 CommandControl { get; set; }
+
+        [Required]   [JsonPropertyName("confidence")]
+        public Int32 Confidence { get; set; }
+
+        [Required]   [JsonPropertyName("steadyness")]
+        public Int32 Steadyness { get; set; }
+
+        [Required]   [JsonPropertyName("aggression")]
+        public Int32 Aggression { get; set; }
+
+        [Required]   [JsonPropertyName("officerRank")]
+        public Int32 OfficerRank { get; set; }
+
+        [Required]   [JsonPropertyName("primaryMissileWeapon")]
+        public Int32 PrimaryMissileWeapon { get; set; }
+
+        [Required]   [JsonPropertyName("meleeWeapon")]
+        public Int32 MeleeWeapon { get; set; }
+
+        [Required]   [JsonPropertyName("fireDiscipline")]
+        public Int32 FireDiscipline { get; set; }
+
+        [Required]   [JsonPropertyName("language")]
+        public Int32 Language { get; set; }
+
+        [Required]   [JsonPropertyName("ammo")]
+        public Int32 Ammo { get; set; }
+
+
+    }
+}

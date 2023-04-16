@@ -1,0 +1,48 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table1>
+    <OfficerName>Alexander Wentworth</OfficerName>
+    <OfficerId>8f3fccd5-646c-43e0-a089-cb948c839d3d</OfficerId>
+    <MyBoss>00000000-0000-0000-0000-000000000000</MyBoss>
+  </Table1>
+  <Table1>
+    <OfficerName>Mark Wodehouse</OfficerName>
+    <OfficerId>f498475c-9566-4c8c-be7a-38888f7f2527</OfficerId>
+    <MyBoss>8f3fccd5-646c-43e0-a089-cb948c839d3d</MyBoss>
+  </Table1>
+  <Table2>
+    <UnitName>2nd Sharpshooters</UnitName>
+    <UnitId>e0c0452e-68c4-4ca8-b53f-51093ee64ec1</UnitId>
+    <MyBoss>f498475c-9566-4c8c-be7a-38888f7f2527</MyBoss>
+  </Table2>
+  <Table2>
+    <UnitName>4th Infantry</UnitName>
+    <UnitId>ffecebd4-3115-4346-9962-b4bfe33b5a9a</UnitId>
+    <MyBoss>f498475c-9566-4c8c-be7a-38888f7f2527</MyBoss>
+  </Table2>
+  <Table2>
+    <UnitName>5th Infantry</UnitName>
+    <UnitId>c832980a-1577-420b-842a-b8f4db9008fe</UnitId>
+    <MyBoss>f498475c-9566-4c8c-be7a-38888f7f2527</MyBoss>
+  </Table2>
+  <Table2>
+    <UnitName>6th Cavalry</UnitName>
+    <UnitId>e6df8a0b-87f6-4137-8704-25ba5d2a1c24</UnitId>
+    <MyBoss>f498475c-9566-4c8c-be7a-38888f7f2527</MyBoss>
+  </Table2>
+  <Table2>
+    <UnitName>9th Light Battery</UnitName>
+    <UnitId>ce87b5a4-6c4b-4ae2-be0f-19edc752f98e</UnitId>
+    <MyBoss>f498475c-9566-4c8c-be7a-38888f7f2527</MyBoss>
+  </Table2>
+  <Table2>
+    <UnitName>10th Rifled Battery</UnitName>
+    <UnitId>542c82ae-f69e-476d-b9c2-4e32224dae50</UnitId>
+    <MyBoss>f498475c-9566-4c8c-be7a-38888f7f2527</MyBoss>
+  </Table2>
+  <Table2>
+    <UnitName>11th Repeater Battery</UnitName>
+    <UnitId>8cb3ab91-8b7d-4634-af38-83485047df72</UnitId>
+    <MyBoss>f498475c-9566-4c8c-be7a-38888f7f2527</MyBoss>
+  </Table2>
+</NewDataSet>

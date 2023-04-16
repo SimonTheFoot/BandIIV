@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table1>
+    <OfficerName>Jean-Louis  McDonald</OfficerName>
+    <OfficerId>f89d893f-9308-4b73-abae-fe2bd1431ad0</OfficerId>
+    <MyBoss>00000000-0000-0000-0000-000000000000</MyBoss>
+  </Table1>
+  <Table1>
+    <OfficerName>Victor  Gericault</OfficerName>
+    <OfficerId>1130998d-ccff-41ff-8c25-b3bbea435108</OfficerId>
+    <MyBoss>f89d893f-9308-4b73-abae-fe2bd1431ad0</MyBoss>
+  </Table1>
+  <Table1>
+    <OfficerName>Jean-Louis  McDonald</OfficerName>
+    <OfficerId>f89d893f-9308-4b73-abae-fe2bd1431ad0</OfficerId>
+    <MyBoss>00000000-0000-0000-0000-000000000000</MyBoss>
+  </Table1>
+  <Table2>
+    <UnitName>12eme CORPS LIBRES FRANCAISE</UnitName>
+    <UnitId>44c563c3-9861-486f-832e-d4f039cb2515</UnitId>
+    <MyBoss>1130998d-ccff-41ff-8c25-b3bbea435108</MyBoss>
+  </Table2>
+  <Table2>
+    <UnitName>13eme MILICES GENEREAUX</UnitName>
+    <UnitId>13fd094f-ca2f-468f-816e-3e1f67dfcc21</UnitId>
+    <MyBoss>1130998d-ccff-41ff-8c25-b3bbea435108</MyBoss>
+  </Table2>
+  <Table2>
+    <UnitName>14eme CHEVEAUXLEGERES</UnitName>
+    <UnitId>cc27492b-910e-4198-ab9b-353c5eebe0d1</UnitId>
+    <MyBoss>1130998d-ccff-41ff-8c25-b3bbea435108</MyBoss>
+  </Table2>
+</NewDataSet>
