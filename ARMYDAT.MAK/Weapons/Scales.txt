@@ -1,0 +1,4 @@
+  1 to 400  (Suitable for 25mm)                      ,300
+  1 to 600  (Suitable for 15mm or large 25mm games)  ,500
+  1 to 1200 (Suitable for 5/6mm or large 15mm games) ,1000
+  A scale of your own choice (1:200 to 1:3000)       ,0

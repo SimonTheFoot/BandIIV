@@ -1,0 +1,76 @@
+  00," staff                       ",0,1,-1
+   01," 1830 British Line Infantry  ",0,1,3,19,4,-1
+   02," 1830 British Light Infantry ",0,1,3,19,5,6,4,-1
+   03," 1830 French Line Infantry   ",0,7,8,19,9,-1
+   04," 1830 French Light Infantry  ",0,7,8,5,6,19,9,-1
+   05," 1830 Prussian Line Infantry ",0,7,17,19,9,-1
+   06," 1830 Prussian Jaeger        ",0,7,17,19,5,6,9,-1
+   07," 1830 Austrian Line Infantry ",0,7,12,13,19,9,15,-1
+   08," 1830 Austrian Light Infantry",0,7,13,19,5,6,9,15,-1
+   09," 1830 Russian Line Infantry  ",0,19,20,21,9,15,-1
+   10," 1830 Native Foot            ",0,25,15,-1
+   11," 1830 Native Light Infantry  ",0,22,23,25,26,-1
+   12," 1830 Native Skirmishers     ",0,23,26,27,-1
+   13," 1830 Sikh Infantry          ",0,7,8,9,16,-1
+   14," 1830 Sikh Light Infantry    ",0,7,8,9,5,6,16,-1
+   15," 1830 Chinese Infantry       ",0,23,24,25,15,-1
+   16," 1830 American Infantry      ",0,1,8,5,6,4,-1
+   17," 1855 British Infantry       ",0,1,2,3,5,6,4,-1
+   18," 1855 French Line Infantry   ",0,7,8,9,-1
+   19," 1855 French Light Infantry  ",0,7,8,5,6,9,-1
+   20," 1862 Prussian Line Infantry ",0,7,17,18,9,-1
+   21," 1862 Prussian Jaeger        ",0,7,17,18,5,6,9,-1
+   22," 1855 Austrian Line Infantry ",0,7,12,9,-1
+   23," 1855 Austrian Light Infantry",0,7,13,5,6,9,-1
+   24," 1870 Russian Line Infantry  ",0,7,11,9,15,-1
+   25," 1870 Russian Light Infantry ",0,7,11,5,9,-1
+   26," 1852 American Infantry      ",0,1,2,3,10,6,9,-1
+   27," 1852 American Militia       ",0,1,2,3,10,6,-1
+   28," 1860 African Regulars       ",0,-1
+   29," 1870 Chinese Regulars       ",0,-1
+   30," 1830 The Mob                ",0,-1
+   31," 1830 Irregulars             ",0,-1
+   32," 1860 Irregulars             ",0,-1
+   33," 1830 Chinese Light Infantry ",0,-1
+   34," 1855 British Light Infantry ",0,-1
+   35," 1870 British Infantry       ",0,-1
+   36," 1870 British Light Infantry ",0,-1
+   37," 1830 Mounted Regulars       ",0,48,49,50,1,5,6,4,-1
+   38," 1830 Mounted Irregulars     ",0,48,49,50,5,6,-1
+   39," 1830 Mounted natives        ",0,45,46,26,27,-1
+   40," 1860 Camel Corps            ",0,-1
+   41," 1830 British Cavalry        ",0,28,30,31,34,35,-1
+   42," 1830 British Light Cavalry  ",0,29,30,31,32,33,34,35,-1
+   43," 1830 French Cavalry         ",0,28,37,38,34,35,-1
+   44," 1830 French Light Cavalry   ",0,29,37,38,32,33,34,35,-1
+   45," 1830 Austrian Cavalry       ",0,28,37,38,-1
+   46," 1830 Austrian Light Cavalry ",0,29,37,38,32,33,34,35,-1
+   47," 1830 Prussian Cavalry       ",0,28,36,37,38,-1
+   48," 1830 Prussian Light Cavalry ",0,29,36,37,38,32,33,34,35,-1
+   49," 1830 Russian Cavalry        ",0,28,36,37,-1
+   50," 1830 Russian Light Cavalry  ",0,29,36,37,-1
+   51," 1830 Native Cavalry ",0,-1
+   52," 1830 Native Light Cavalry ",0,-1
+   53," 1830 Irregular Cavalry      ",0,44,45,46,-1
+   54," 1830 Irregular Light Cavalry",0,43,46,47,71,34,35,-1
+   55," 1860 British Cavalry        ",0,-1
+   56," 1860 British Light Cavalry  ",0,-1
+   57," 1860 French Cavalry         ",0,-1
+   58," 1860 French Light Cavalry   ",0,-1
+   59," 1860 Russian Dragoons       ",0,28,30,34,35,-1
+   60," 1860 Russian Cossacks       ",0,29,30,34,35,-1
+   61," 1830 Foot Artillery         ",0,51,52,53,-1
+   62," 1830 Horse Artillery        ",0,51,52,53,54,-1
+   63," 1830 Native Artillery       ",0,55,56,-1
+   64," 1830 Mountain Artillery     ",0,-1
+   65," 1830 Heavy Artillery        ",0,-1
+   66," 1830 Siege Artillery        ",0,-1
+   67," 1830 Irregular Artillery    ",0,-1
+   68," 1830 Militia Artillery      ",0,-1
+   69," 1830 Rocket Artillery       ",0,-1
+   70," 1860 Machine guns           ",0,51,52,53,-1
+   71," 1830 Camelry                ",0,43,44,45,46,34,35,-1
+   72," 1830 Elephantry             ",0,60,61,62,-1
+   73," 1830 Zambukhis              ",-1
+   74," 1830 Baggage Train          ",0,-1
+   75," 1830 Baggage Train          ",0,-1

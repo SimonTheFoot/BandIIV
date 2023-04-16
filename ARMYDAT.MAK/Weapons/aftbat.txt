@@ -1,0 +1,11 @@
+  do nothing           ,0,0,0,0,0,0,0,0
+  pursue relentlessly  ,8,90,100,0,100,0,6,10
+  pursue vigourously   ,7,80,70,0,75,0,5,5
+  pursue cautiously    ,6,70,40,0,30,0,3,5
+  pursue locally       ,5,65,30,0,20,0,2,3
+  halt and reform      ,0,60,0,50,0,0,0,2
+  retire               ,0,80,0,60,0,1,0,2
+  retreat              ,0,100,0,100,0,4,0,5
+  retreat headlong     ,0,120,0,120,0,6,0,7
+  rout                 ,0,140,0,150,0,8,0,10
+  scatter in rout      ,0,150,0,200,0,100,0,14

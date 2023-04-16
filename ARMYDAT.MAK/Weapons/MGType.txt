@@ -1,0 +1,8 @@
+   " dummy                        ",1
+   " Funnel Magazine gun          ",2
+   " dummy                        ",3
+   " Battery gun                  ",4
+   " Early hand-cranked gun       ",5
+   " Hand cranked machine gun     ",6
+   " dummy                        ",7
+   " Gas-operated machine gun     ",8

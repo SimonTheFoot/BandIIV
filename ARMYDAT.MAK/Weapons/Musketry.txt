@@ -1,0 +1,228 @@
+    1," Flintlock musket                   ",1830,3,10,20,75,3
+     2," Flintlock carbine                  ",1830,3,10,15,75,3
+     3," Percussion lock musket             ",1834,3,10,20,85,4
+     4," Percussion lock carbine            ",1835,3,10,15,85,4
+     5," Baker rifle                        ",1830,2,15,40,70,3
+     6," Brunswick rifle                    ",1839,2,20,45,80,4
+     7," Liege fusil M1851                  ",1851,3,28,75,85,4
+     8," Delvigne fusil M1842               ",1838,2,20,50,78,4
+     9," Thouvenin pillie-en-cullasse       ",1846,2,20,60,80,4
+    10," Minie fusil M1851                  ",1849,3,28,75,85,4
+    11," Sea Service rifle                  ",1850,3,28,75,86,4
+    12," Jessen rifle                       ",1850,3,28,80,86,4
+    13," Lorenz gewehr                      ",1850,3,30,80,87,4
+    14," Lidner-Podewils                    ",1867,7,30,90,85,6
+    15," Enfield rifle                      ",1853,3,32,90,90,4
+    16," Jaeger-Schutz karabiner            ",1854,3,28,52,88,4
+    17," Liege carabine                     ",1840,3,18,30,80,4
+    18," Enfield carbine                    ",1853,3,28,60,88,4
+    19," Sappers and miners carbine         ",1855,3,30,90,85,4
+    20," Jezail                             ",1830,2,15,40,70,3
+    21," Trade musket                       ",1830,3,10,15,60,3
+    22," Podewils gewehr                    ",1850,3,29,85,84,4
+    23," Tennessee rifle                    ",1830,2,20,50,75,3
+    24," Oriental musket                    ",1830,3,10,25,65,3
+    25," Enroth rifle                       ",1855,3,28,70,83,4
+    26," Oriental rifle                     ",1855,3,24,50,80,4
+    27," Springfield M1855 rifle            ",1855,4,30,80,90,4
+    28," Springfield M1861 rifle            ",1861,3,30,80,88,4
+    29," CSA dropping-breech carbine        ",1862,6,18,30,70,5
+    30," CSA rising-breech carbine          ",1862,6,18,30,72,5
+    31," Joslyn 1863 carbine                ",1863,8,30,70,80,6
+    32," Jenks Navy rifle                   ",1855,5,20,45,75,5
+    33," Merrill rifle                      ",1858,6,20,60,75,5
+    34," Perry carbine                      ",1855,4,15,30,70,5
+    35," Richmond carbine                   ",1861,3,20,42,85,4
+    36," Fayetteville carbine               ",1862,6,18,30,70,5
+    37," Lidner-Springfield                 ",1867,7,30,100,85,5
+    38," Harpers Ferry M1855 pistol-carbine ",1855,4,12,25,85,4
+    39," Lancaster rifle                    ",1855,2,50,150,75,4
+    40," Burnside carbine                   ",1860,7,22,55,80,6
+    41," Hall carbine M1837                 ",1837,4,10,15,60,5
+    42," Maynard carbine                    ",1859,7,20,52,80,5
+    43," Merrill Latrobe & Thomas carbine   ",1858,6,18,40,75,5
+    44," Sharps carbine                     ",1859,6,20,35,80,5
+    45," Smith carbine                      ",1857,9,18,30,78,5
+    46," Star carbine                       ",1858,5,18,30,68,5
+    47," Spencer carbine                    ",1861,10,15,28,75,6
+    48," Sharps & Hankins carbine           ",1863,7,30,80,85,6
+    49," Wesson carbine                     ",1860,5,18,30,60,5
+    50," Gallagher carbine                  ",1860,5,18,32,75,5
+    51," Joslyn  1855 carbine               ",1855,4,28,76,70,5
+    52," Ballard carbine                    ",1861,8,18,35,75,6
+    53," Ball carbine                       ",1865,9,18,35,70,6
+    54," Cosmopolitan carbine               ",1862,7,18,36,75,6
+    55," Gibbs carbine                      ",1857,5,18,35,65,5
+    56," Peabody carbine                    ",1865,8,18,38,78,6
+    57," Remmington carbine                 ",1865,7,20,50,80,6
+    58," Warner carbine                     ",1864,7,20,42,70,6
+    59," Ballard rifle                      ",1863,7,30,60,85,6
+    60," Henry rifle                        ",1863,9,20,40,70,8
+    61," Sharps rifle                       ",1859,5,20,50,75,5
+    62," Star rifle                         ",1830,2,20,50,75,3
+    63," Spencer rifle                      ",1862,9,30,50,75,8
+    64," Harpers Ferry M1841 rifle          ",1841,2,20,50,75,4
+    65," Harpers Ferry M1841/55 rifle       ",1855,3,28,70,80,4
+    66," Colt rifle                         ",1855,8,15,45,65,7
+    67," Hall rifle                         ",1837,4,15,40,60,5
+    68," Greene rifle                       ",1858,5,32,100,80,5
+    69," Rifled re-bored muskets            ",1852,3,25,70,80,4
+    70," Snider Enfield                     ",1866,7,35,110,90,6
+    71," Snider Enfield carbine             ",1868,7,30,60,90,6
+    72," Martini Henry                      ",1869,7,41,145,95,6
+    73," Martini Peabody                    ",1870,7,40,100,94,6
+    74," Peabody                            ",1862,6,24,50,80,5
+    75," Remmington                         ",1867,7,40,100,92,6
+    76," Mauser G1871                       ",1871,7,40,100,92,6
+    77," Gras                               ",1874,7,41,145,95,6
+    78," Wanzl                              ",1867,7,35,88,85,5
+    79," Werndl                             ",1870,7,40,175,95,6
+    80," Chassepot                          ",1866,7,38,130,85,6
+    81," Dreyse Zundnadelgewehr G1841       ",1841,7,15,40,60,5
+    82," Dreyse Zundnadelkarabiner K1857    ",1857,7,20,40,75,5
+    83," Terry carbine                      ",1856,6,25,60,80,5
+    84," Westley Richards carbine           ",1860,7,35,80,85,6
+    85," Springfield M1873                  ",1873,7,41,150,95,6
+    86," Beaumont                           ",1871,7,35,100,90,6
+    87," Vetterli                           ",1867,7,41,175,95,6
+    88," Guedis                             ",1885,7,45,160,95,6
+    89," Krnka                              ",1871,6,30,50,85,6
+    90," Berden I                           ",1869,6,30,60,85,6
+    91," Berden II                          ",1879,7,42,145,92,6
+    92," Winchester carbine M1866           ",1866,10,20,30,70,8
+    93," Winchester rifle M1866             ",1866,10,20,40,75,8
+    94," Vetterli-Vitali                    ",1870,10,30,125,80,8
+    95," Kropatschek                        ",1878,10,42,165,82,8
+    96," Lebel                              ",1888,10,50,200,95,9
+    97," Lee Metford                        ",1888,10,50,200,99,9
+    98," Revolver                           ",1833,10,5,10,80,5
+    99," Double barrelled gun               ",1845,4,10,20,95,4
+   100," Shotgun                            ",1860,6,3,10,99,4
+   101," Westly Richards rifle              ",1865,7,35,100,85,6
+   102," Tapley carbine                     ",1855,6,18,30,70,5
+   103," Mannlicher G1881                   ",1881,10,50,200,95,9
+   104," Peruvano                           ",1872,7,40,130,90,6
+   105," Comblain                           ",1873,7,40,145,90,6
+   106," Bow                                ",1830,6,5,20,35,1
+   107," Crossbow                           ",1830,1,10,30,50,1
+   108," Javelin                            ",1830,3,5,10,40,0
+   109," Zambuk                             ",1830,1,20,50,60,2
+   110," Snider Springfield                 ",1866,7,30,100,90,6
+   111," Krag-Jorgensen                     ",1888,10,50,200,85,8
+   112," Matchlock                          ",1800,2,5,30,60,2
+   113," Colt carbine                       ",1855,8,10,30,65,7
+   114," Mosin Nagant                       ",1891,9,50,220,90,6
+   115," pistol                             ",1830,4,3,6,75,3
+   116," Jingal                             ",1830,1,20,40,70,3
+   117," Jacobs rifle                       ",1850,3,30,100,85,4
+   118," Martini Metford                    ",1882,7,42,145,98,6
+   119," Lee-Remmington                     ",1879,10,40,145,95,6
+   120," Lidner-Werder                      ",1869,7,35,88,88,5
+   121," Lidner-Drechsler                   ",1869,7,35,80,88,5
+   122," Longbow                            ",1800,6,8,24,45,1
+   123," Minie fusil M1853                  ",1853,3,30,75,84,4
+   124," Harpers Ferry M1842 rifle          ",1842,2,18,40,75,4
+   125," Berthier                           ",1890,10,50,200,95,6
+   126," Lee-Enfield                        ",1898,12,50,220,99,6
+   127," Deutches Kommisariat G1888         ",1888,10,45,200,95,9
+   128," Mauser G1898                       ",1898,10,50,200,98,9
+   129," Roer                               ",1830,3,10,20,95,4
+   130," Mannlicher-Carocano                ",1891,10,50,200,95,6
+   131," Elephant gun                       ",1870,5,40,100,92,6
+   132," Beaumont-Viterli                   ",1890,10,45,190,91,9
+   133," Hontoria rifle                     ",1852,3,27,75,82,4
+   134," American Enfield rifle             ",1855,3,32,85,84,4
+   135," Witton rifle                       ",1853,3,28,72,80,4
+   136," pistol                             ",1840,4,3,6,85,4
+   137," Revolver                           ",1855,10,5,10,90,7
+   138," Pump action shotgun                ",1890,10,3,10,90,8
+   139," Dreyse Zundnadelgewehr G1862       ",1862,7,28,60,78,5
+   140," Double barrel rifle                ",1855,4,20,50,85,4
+   141," Cape carbine                       ",1834,4,25,70,85,4
+   142," Kabul Enfield                      ",1860,3,30,80,80,4
+   143," Kabul carbine                      ",1860,3,25,50,80,4
+   144," Scheel rifle                       ",1839,6,15,40,60,5
+   145," Rifled pistol                      ",1840,4,5,10,85,4
+   146," Amsler gewehr                      ",1850,3,25,80,85,4
+   147," Minie carabine                     ",1852,3,20,40,82,4
+   148," Werder gewehr                      ",1851,3,28,80,83,4
+   149," Drechsler gewehr                   ",1852,3,30,85,84,4
+   150," Fusil Lance                        ",1856,7,25,70,82,6
+   151," Chassepot carabine                 ",1866,7,30,90,85,6
+   152," Fusil tabatiere d'Infantrie        ",1867,7,30,90,85,6
+   153," Fusil tabatiere de Dragon          ",1867,7,24,70,85,6
+   154," Fusil tabatiere de Gendarme        ",1867,7,22,70,85,6
+   155," Fusil tabatiere de Chasseur        ",1867,7,28,90,85,6
+   156," Springfield M1863 T1 rifle         ",1863,3,30,80,87,4
+   157," Springfield M1863 T2 rifle         ",1864,3,30,80,86,4
+   158," Colt SM1863 rifle                  ",1861,3,30,80,89,4
+   159," Turner carbine                     ",1860,7,30,60,85,6
+   160," Braendlin fusil                    ",1851,3,30,80,87,4
+   161," Albini Braendlin                   ",1868,7,35,88,85,5
+   162," Terrsen                            ",1871,7,35,100,90,6
+   163," Carcano                            ",1869,7,28,60,78,5
+   164," Milbank-Amsler                     ",1868,7,35,88,85,5
+   165," Liege fusil M1841                  ",1841,2,18,45,74,4
+   166," Dreyse Zundnadelbusche K1849       ",1849,7,15,40,60,5
+   167," Dreyse Zundnadelbusche G1869       ",1869,7,30,70,80,5
+   168," Jager rifle                        ",1830,2,18,45,80,4
+   169," Jagerbusche                        ",1830,2,15,40,70,3
+   170," Warsaw rifle                       ",1844,2,18,45,74,4
+   171," Jaegerschutze                      ",1830,2,10,30,69,3
+   172," Oriental rifle                     ",1830,2,10,40,50,3
+   173," Kavallerie Schutze                 ",1830,2,8,25,70,3
+   174," Grenzschutze                       ",1830,2,10,30,65,3
+   175," Kabyle musket                      ",1830,3,5,25,60,3
+   176," Kabyle rifle                       ",1830,2,8,30,60,3
+   177," Sestrovsk rifled carbine           ",1830,2,6,30,60,3
+   178," Miguelet mosquete                  ",1830,3,4,20,65,3
+   179," Miguelet trabuco                   ",1830,3,3,12,65,3
+   180," Miguelet carabina                  ",1830,2,8,30,60,3
+   181," Dane gun                           ",1830,3,3,25,65,3
+   182," Romagnol musket                    ",1830,3,4,20,65,3
+   183," Romagnol carbine                   ",1830,3,3,12,65,3
+   184," Romagnol rifle                     ",1830,2,8,32,60,3
+   185," Jessen rifle M1841                 ",1841,2,18,45,74,4
+   186," Mississippi rifle                  ",1830,2,20,50,65,3
+   187," Hall-North carbine M1833           ",1833,4,6,15,55,5
+   188," Hall-North carbine M1838           ",1838,4,10,20,58,5
+   189," Hall rifle M1819                   ",1819,3,8,24,50,3
+   190," Hall rifle M1837                   ",1837,4,12,30,55,5
+   191," Scheel rifle                       ",1838,6,10,30,60,5
+   192," Rifled pistol                      ",1830,4,5,10,85,4
+   193," Colt carbine                       ",1839,8,3,30,50,7
+   194," Jenks musketoon                    ",1837,4,8,15,55,5
+   195," Whitworth rifle                    ",1861,3,50,120,84,4
+   196," Blunderbus                         ",1830,4,8,15,75,3
+   197," Jennings rifle                     ",1849,7,10,20,68,8
+   198," Volcanic rifle                     ",1852,8,10,20,70,8
+   199," Fruwirth rifle                     ",1869,10,30,125,80,8
+   200," Hotchkiss rifle                    ",1880,10,30,125,80,8
+   201," Winchester M1883                   ",1883,10,30,125,85,8
+   202," Winchester 73 rifle                ",1873,10,20,50,80,8
+   203," Springfield M1855 Maynard rifle    ",1855,4,30,80,60,4
+   204," Palmetto M1841 rifle               ",1861,3,18,40,85,4
+   205," Richmond M1842 rifle               ",1861,3,18,40,85,4
+   206," Fayetteville M1861 rifle           ",1861,3,30,80,88,4
+   207," Mauser G1871/1884                  ",1884,10,40,100,90,8
+   208," Dreyse M1874                       ",1874,10,40,100,90,8
+   209," Dreyse G1884                       ",1881,10,50,200,94,9
+   210," Krnka M1886                        ",1886,10,50,200,94,9
+   211," Mauser G1888                       ",1888,10,45,200,96,9
+   212," Murata M1876                       ",1876,7,38,130,85,6
+   213," Immfanger M1868                    ",1883,10,30,85,85,8
+   214," Flicth M1873                       ",1873,10,30,100,85,8
+   215," Dreyse Zundnadelgewehr G1849       ",1849,7,20,50,74,5
+   216," Trade rifle                        ",1830,2,20,60,70,3
+   217," Spencer carbine M1873              ",1873,10,20,50,85,8
+   218," Sling                              ",1830,2,5,15,40,0
+   219," Blowpipe                           ",1830,1,2,5,75,0
+   220," Murata M1884                       ",1884,10,40,100,88,8
+   221," Albini M1896                       ",1896,10,50,200,95,9
+   222," Podewils karabiner                 ",1852,3,20,40,82,4
+   223," Werder karabiner                   ",1852,3,18,40,83,4
+   224," Drechsler karabiner                ",1852,3,20,40,83,4
+   225," Martini Henry carbine              ",1870,7,36,95,95,6
+   226," Enroth carbine                     ",1855,3,20,50,83,4
+   227," Forobah Chassepot                  ",1880,6,30,90,80,6
+   228," Forobah Gras                       ",1884,6,35,100,87,6

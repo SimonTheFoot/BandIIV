@@ -1,0 +1,26 @@
+  01," Guard                ",12,7,11,13
+   02," Regular              ",10,8,12,12
+   03," Reserve              ",9,8,10,11
+   04," Volunteer            ",12,11,10,8
+   05," 1st Line             ",10,10,10,10
+   06," 2nd Line             ",9,11,9,9
+   07," Militia              ",8,15,10,8
+   08," Garrison             ",8,11,8,9
+   09," Depot                ",9,9,9,9
+   10," Soldier              ",10,12,8,8
+   11," Warrior              ",12,12,10,7
+   12," Tribal               ",10,14,9,6
+   13," Levy                 ",5,20,5,5
+   14," Conscript            ",10,10,10,10
+   15," Foreign              ",10,9,10,10
+   16," Elite                ",12,7,12,12
+   17," Emigree              ",10,8,10,10
+   18," Provost              ",9,11,9,9
+   19," Slave Soldier        ",10,10,10,10
+   20," Mercenary            ",10,10,10,10
+   21," Female Soldier       ",12,12,8,10
+   22," Prisoner of War      ",8,15,8,8
+   23," Deserter             ",10,15,9,9
+   24," Invalid              ",9,9,8,10
+   25," Freebooter           ",10,18,10,6
+   26," Brigand              ",10,20,10,4

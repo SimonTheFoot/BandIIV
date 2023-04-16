@@ -1,0 +1,10 @@
+1, An Alexander of Macedon ,120
+2, A Great Strategist      ,100
+3, A Competent Stategist   ,92
+4, Highly competent        ,84
+5, A skilled tactician     ,76
+6, A good enough Soldier   ,65
+7, No great Military Skill ,55
+8, Little Martial Skill    ,45
+9, No Military Inclination ,35
+10, A clod                  ,25

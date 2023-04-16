@@ -1,0 +1,15 @@
+   1," poorly equipped smoothbores ",1,3,-1
+   2," better equipped smoothbores ",1,2,3,12,-1
+   3," British smoothbores         ",1,3,5,6,13,-1
+   4," American smoothbores        ",1,2,3,5,6,12,-1
+   5," American ml rifles          ",2,3,4,5,6,12,-1
+   6," American bl rifles          ",3,5,11,-1
+   7," British rifles              ",5,6,7,13,-1
+   8," Irregular rifles            ",2,3,4,-1
+   9," French rifles               ",2,3,5,6,12,-1
+   10," Prussian rifles            ",3,11,-1
+   11," rockets                    ",8,9,-1
+   12," mortars                    ",10,-1
+   13," early contact shell rifles ",3,14,-1
+   14," later contact shell rifles ",-1
+   15," machine guns               ",-1

@@ -1,0 +1,7 @@
+ 1," Veteran       ",9,5,11,12
+ 2," Seasoned      ",10,7,11,11
+ 3," Experienced   ",10,10,10,11
+ 4," Inexperienced ",11,15,9,8
+ 5," Untrained     ",10,20,7,5
+ 6," Dissaffected  ",7,25,10,2
+ 7," Fanatical     ",15,8,8,10

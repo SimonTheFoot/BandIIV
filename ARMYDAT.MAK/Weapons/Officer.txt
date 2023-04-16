@@ -1,0 +1,61 @@
+   " Marshal                ",1,11,60
+   " Field Marshal          ",2,11,60
+   " General                ",3,12,50
+   " Lieutenant General     ",4,13,48
+   " Major General          ",5,14,45
+   " Brigadier General      ",6,15,42
+   " Brigadier              ",7,16,40
+   " Colonel                ",8,17,36
+   " Lieutenant Colonel     ",9,18,30
+   " Major                  ",10,20,28
+   " Captain                ",11,21,26
+   " Lieutenant             ",12,22,24
+   " Subaltern              ",13,23,22
+   " Ensign                 ",14,24,20
+   " Sergeant Major         ",15,31,20
+   " Sergeant               ",16,32,5
+   " Corporal               ",17,33,5
+   " Commandant             ",18,21,10
+   " Commander              ",19,20,30
+   " Adjutant               ",20,20,30
+   " Emperor                ",21,1,100
+   " King                   ",22,2,90
+   " Prince                 ",23,3,80
+   " Duke                   ",24,4,75
+   " Lord                   ",25,5,70
+   " Count                  ",26,6,65
+   " Baron                  ",27,7,50
+   " Mayor                  ",28,21,20
+   " Father                 ",29,21,30
+   " Governor               ",30,21,30
+   " Commisioner            ",31,22,25
+   " Paramount Chief        ",32,6,40
+   " Chief                  ",33,7,30
+   " Chieftain              ",34,8,20
+   " Sultan                 ",35,1,100
+   " Emir                   ",36,3,70
+   " Sheikh                 ",37,5,60
+   " Mullah                 ",38,5,50
+   " Iman                   ",39,5,50
+   " Bakaski                ",40,21,20
+   " Sipahadar              ",41,21,20
+   " Mokumdar               ",42,21,20
+   " Momba                  ",43,9,20
+   " Induna                 ",44,21,20
+   " Ndoda                  ",45,21,20
+   " Cuadillo Don           ",46,9,30
+   " Hetmen                 ",47,21,10
+   " Jagirdar               ",48,21,20
+   " Zemandar               ",49,9,30
+   " Dissawa                ",50,9,30
+   " Aquib                  ",51,21,10
+   " Prince Bisop           ",52,3,60
+   " Graf                   ",53,5,60
+   " Herzog                 ",54,4,70
+   " Voivode                ",55,5,60
+   " Pulkownik              ",56,17,30
+   " Rotmeistrz             ",57,18,30
+   " Styrer                 ",58,9,30
+   " Vizier                 ",59,3,50
+   " Grand Vizier           ",60,2,60
+   " Margraf                ",61,5,60

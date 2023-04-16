@@ -1,0 +1,7 @@
+ 1," Over confident  ",12,11,8,10
+ 2," Enthusiastic    ",11,10,10,10
+ 3," Confident       ",10,10,10,10
+ 4," Diffident       ",9,11,9,10
+ 5," Disheartened    ",8,11,9,10
+ 6," Neglected       ",8,11,9,8
+ 7," Scared          ",6,12,8,9

@@ -1,0 +1,12 @@
+ 1, Accept, unchanged        
+ 2, the number of men        
+ 3, the number of sub units  
+ 4, the weapons              
+ 5, the experience           
+ 6, the committment level    
+ 7, the Troop Type           
+ 8, the Troop class          
+ 9, the formations available 
+ 10, the Officer              
+ 11, the unit's name          
+ 12, Reject/delete            

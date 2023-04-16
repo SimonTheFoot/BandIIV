@@ -1,0 +1,6 @@
+  None                  
+  Cuirass               
+  Half Cuirass          
+  Chain Mail            
+  Mail & Quilt          
+  Quilt                 

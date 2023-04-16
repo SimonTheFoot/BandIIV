@@ -1,0 +1,10 @@
+1,  The Rock of loyalty        ,110
+2,  Expeditious and courageous ,90
+3,  Fideleous and gallant      ,80
+4,  Brave and loyal            ,70
+5,  Trustworthy and brave      ,60
+6,  Dependable enough          ,55
+7,  Somewhat untrustworthy     ,45
+8,  A poor Patriot             ,39
+9,  A cowardly Scrub           ,28
+10,  Worse still                ,20
