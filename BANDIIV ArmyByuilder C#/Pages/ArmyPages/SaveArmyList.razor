@@ -1,0 +1,61 @@
+﻿@page "/SaveArmy"
+<h3>Save an Army</h3>
+@using BandiIVWebApiGetter.Data
+@using BandiIVWebApiGetter.Models
+@using BandiIVWebApiGetter.Makers
+@inject NavigationManager NavManager
+<h5 style="font-size: 18px">Select an army or enter a new filename</h5>
+
+<select size="1" name="areaName" width="20" style="font-size: 12px" @onchange="@SetArmy">
+    @foreach (var army in armiesAvailable)
+    {
+        <option value="@army.aPath" selected
+            style="font-size: 12px">@army.aName</option>
+    }
+</select>
+<input type="text" id="armyvalue"  @onchange="@NameArmy" />
+<input type="button" value="Save  army" @onclick="ArmySave" />
+<h5 style="font-size: 18px" hidden=@hidename>Saved @savedArmyName</h5>
+@code {
+    private List<ArmiesAvailable> armiesAvailable = new List<ArmiesAvailable>();
+    public string armyPath;
+    private string armyName;
+    private string savedArmyName;
+    private bool hidename = true;
+    public string aPath = "Data/Armies+Guid/SavedForces/";
+    // @"H:\BandiMocks\BandIIVWebApiTests\BandiIVWebApiGetter\Data\Armies+guid\SavedForces\";
+    public bool shouldRender;
+    protected override bool ShouldRender() => shouldRender;
+    protected override async Task OnInitializedAsync()
+    {
+        armiesAvailable = FileFunctions.GetAvailableArmies(aPath);
+        shouldRender = true;
+    }
+    public void SetArmy(Microsoft.AspNetCore.Components.ChangeEventArgs e)
+    {
+
+        armyPath = e.Value.ToString();
+        if (!string.IsNullOrEmpty(armyName))
+        {
+            armyPath = aPath + armyName;
+        }
+        else
+        {
+            armyPath = e.ToString();
+        }
+    }
+    public void NameArmy(Microsoft.AspNetCore.Components.ChangeEventArgs e)
+    {
+        savedArmyName = e.Value.ToString();
+        armyPath = aPath + savedArmyName;
+    }
+    public void ArmySave()
+    {
+        if (!string.IsNullOrEmpty(armyPath))
+        {
+            FileFunctions.SaveFiles(TestAreas.Units, TestAreas.ArmyOfficers, armyPath);
+            hidename = false;
+        }
+
+    }
+}

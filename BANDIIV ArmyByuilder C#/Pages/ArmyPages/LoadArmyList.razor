@@ -1,0 +1,62 @@
+﻿@page "/LoadArmyList"
+<h3>Load an Army List</h3>
+@using BandiIVWebApiGetter.Data
+@using BandiIVWebApiGetter.Models
+@using BandiIVWebApiGetter.Makers
+@inject NavigationManager NavManager
+
+
+<h5 style="font-size: 18px">Select an army</h5>
+
+<select size="1" name="areaName" width="20" style="font-size: 12px" @onchange="@SetArmy">
+        @foreach (var army in armiesAvailable)
+        {
+            <option value="@army.aPath" selected
+
+            
+            style="font-size: 12px">@army.aName</option>
+        }
+    </select>
+<input type="button" value="add army" @onclick="AddArmy" />
+<br/>
+<input type="button" value="Clear armies" @onclick="ClearArmies"/>
+
+@code {
+    private bool shouldRender;
+    private List<ArmiesAvailable> armiesAvailable = new List<ArmiesAvailable>();
+    public List<CompositeList> compositeLists = new List<CompositeList>();
+    public string armyPath;
+    public string aPath = "Data/Armies+Guid/SavedForces/";
+    // @"H:\BandiMocks\BandIIVWebApiTests\BandiIVWebApiGetter\Data\Armies+guid\SavedForces\";
+    public List<CompositeList> stuff = new List<CompositeList>();
+    protected override bool ShouldRender() => shouldRender;
+    protected override async Task OnInitializedAsync(){
+        armiesAvailable = FileFunctions.GetAvailableArmies(aPath);
+        shouldRender = true;
+    }
+    public void SetArmy(Microsoft.AspNetCore.Components.ChangeEventArgs e)
+    {
+        armyPath = e.Value.ToString();
+    }
+    public void AddArmy()
+    {
+        if (string.IsNullOrEmpty(armyPath))
+        { }
+        else
+        {
+            TestAreas.ArmyOfficers.AddRange(FileFunctions.LoadArmyOfficers(armyPath));
+            TestAreas.Units.AddRange(FileFunctions.LoadArmyUnits(armyPath));
+            TestAreas.ListOfCompositeList.AddRange(CommonValuesExtractor.extractOfficerDetails(TestAreas.ArmyOfficers));
+            TestAreas.ListOfCompositeList.AddRange(CommonValuesExtractor.extractUnitDetails(TestAreas.Units));
+            NavManager.NavigateTo("/");
+        } 
+    }
+    public void ClearArmies()
+    {
+        TestAreas.ArmyOfficers.Clear();
+        TestAreas.Units.Clear();
+        TestAreas.ListOfCompositeList.Clear();
+       
+
+    }
+}
