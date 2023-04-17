@@ -1,0 +1,7 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [],
+  "BaseUriLive": "http://BandiIV.com/fixed/",
+  "SavedArmiesRoot":"H:\\BandiMocks\\BandIIVWebApiTests\\BandiIVWebApiGetter\\Data\\Armies+guid\\SavedForces\\\";\""
+}

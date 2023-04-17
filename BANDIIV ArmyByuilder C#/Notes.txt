@@ -1,1 +1,11 @@
-This is the work that Nathanial Norburn did as part of his OU TM470 course.  
+﻿This is Nates OU submission
+URL to test https://bloodandiron.co.uk/fixed/Armies
+
+Error [ExternalException (0x80004005): Cannot execute a program. The command being executed was "C:\Domains\141585\bloodandiron.co.uk\wwwroot\bin\roslyn\csc.exe" 
+Access server https://portal.winserve.co.uk/index.php?rp=/login
+SolidCP access
+Email Address: SIMON@aard.co.uk
+Password: All4Luddites!
+To login, visit https://portal.winserve.co.uk
+username 141585
+password All4Luddites!

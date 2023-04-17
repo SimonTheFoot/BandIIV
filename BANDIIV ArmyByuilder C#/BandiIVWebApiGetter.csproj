@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Helpers\DeepCloneHelper.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Pages\CallWebApi.razor" />
+    <Content Remove="Pages\SaveArmyList.razor" />
+    <Content Remove="Pages\TestAreas.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Pages\TestAreas.css" />
+    <None Remove="Pages\TestAreas.razor.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.123" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Syncfusion.Blazor.Cards" Version="21.1.35" />
+    <PackageReference Include="Syncfusion.Blazor.Navigations" Version="21.1.35" />
+    <PackageReference Include="Syncfusion.Blazor.Themes" Version="21.1.35" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Data\Armies+guid\SavedForces\Old Saved Forces\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Pages\SaveArmyList.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Pages\SaveArmyList.razor" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <None Include="Pages\ArmyPages\SaveArmyList.razor" />
+  </ItemGroup>
+
+</Project>
